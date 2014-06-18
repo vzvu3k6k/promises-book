@@ -13,7 +13,7 @@ if [ $TRAVIS_PULL_REQUEST != 'false' ]; then
     exit 0;
 fi
 
-git checkout -B gh-pages
+git checkout -B _gh-pages
 
 make html
 gulp build-min-js
@@ -26,4 +26,4 @@ echo "MESSAGE :" $lastCommit
 
 git add -A .
 git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
-git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" gh-pages > /dev/null
+git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" _gh-pages > /dev/null
