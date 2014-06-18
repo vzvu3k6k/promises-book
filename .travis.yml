@@ -18,6 +18,8 @@ after_success:
 - npm run-script deploy
 env:
   global:
+    - GH_REF: github.com/vzvu3k6k/Promises-book.git
+    - secure: "T1+erdHDMxSYO/DM4MRfTNSR0LGOEGf/FIOHfj3XMI3L3IzEFyH0bZhoeTo5EfWg8/2iMwvHASNCt+rwkYwVPzwiBYi+5OFOyCa4wt+aNchukmj34/bHYlytQ/BCDNerYekTXFUgAGcch48nKD5ok1vbRbFGXerbxZuZBFFEd+k="
   # - GH_REF: github.com/azu/Promises-book.git
   # - secure: pNtiVeWTe/kPWmERJURFoCVfzDVOc19IPbr9rK9CDJHo9aFtBPXkRwYzXfjlIwnzzkrAnfowxNNerHxYXuiNK7z+xNT9H79pmYtd1Qap9fNZCFNIFkdaArAXoq635VWmGRdArGiQGNM4Am+bZdsgG4dJR4DEsjx6dcisfyb8yso=
   # - secure: Ne82o6v7wWwNQzd/2rKacyDgFgxLP822KPxxSZe/7/8gklbGMXOtDAhyW+5PgixOs7s3Vzknqw6dSTOPMY2c436F1ZJb6lMGcL6BPVSGmIXSYGm6C5SZIDTrp7QDarTAGCNiHlHFGySEhbz9R5CjPWF24kQfT/QdszZr7OokJYA=
