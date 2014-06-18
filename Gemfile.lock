@@ -1,0 +1,28 @@
+GIT
+  remote: git://github.com/opendevise/asciidoctor-epub3.git
+  revision: b71d6e9e72b548ac9aec9c89437b813dc54313f7
+  specs:
+    asciidoctor-epub3 (1.0.0.dev)
+      asciidoctor (>= 1.5.0.preview.7, < 1.6.0)
+      gepub (~> 0.6.9.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    asciidoctor (1.5.0.preview.8)
+    coderay (1.1.0)
+    gepub (0.6.9.2)
+      nokogiri (~> 1.6.1)
+      rubyzip (>= 1.1.1)
+    mini_portile (0.6.0)
+    nokogiri (1.6.2.1)
+      mini_portile (= 0.6.0)
+    rubyzip (1.1.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  asciidoctor
+  asciidoctor-epub3!
+  coderay
