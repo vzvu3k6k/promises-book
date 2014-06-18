@@ -26,10 +26,10 @@ env:
 branches:
   except:
     - preview-html
-notifications:
-  webhooks:
-    urls:
-    - https://webhooks.gitter.im/e/02e67e9b440eddb4a3da
-    on_success: change
-    on_failure: always
-    on_start: false
+# notifications:
+#   webhooks:
+#     urls:
+#     - https://webhooks.gitter.im/e/02e67e9b440eddb4a3da
+#     on_success: change
+#     on_failure: always
+#     on_start: false
