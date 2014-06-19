@@ -12,7 +12,7 @@ before_install:
 - npm install -g gulp
 - sudo apt-get install ttf-vlgothic
 script:
-- make test-all
+#- make test-all
 after_success:
 - "./_tools/setup-git.sh"
 - npm run-script deploy
