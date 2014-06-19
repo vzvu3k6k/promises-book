@@ -8,5 +8,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  asciidoctor
+  asciidoctor (~> 1.5.0.preview)
   coderay

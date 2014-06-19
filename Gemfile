@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 #   gem 'asciidoctor-epub3', :github => 'opendevise/asciidoctor-epub3'
 # end
 
-gem 'asciidoctor', '~>0.1'
+gem 'asciidoctor', '~>1.5.0.preview'
 gem 'coderay'#, '~>1.1'
 
 # Updating git://github.com/opendevise/asciidoctor-epub3.git
